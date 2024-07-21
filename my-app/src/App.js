@@ -1,5 +1,7 @@
 import './App.css';
-import { Amplify, Auth } from 'aws-amplify';
+import { Amplify } from 'aws-amplify';
+import Auth from 'aws-amplify/auth';
+
 import awsconfig from './aws-exports';
 import { withAuthenticator } from '@aws-amplify/ui-react';
 
